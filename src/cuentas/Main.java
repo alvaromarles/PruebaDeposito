@@ -1,9 +1,27 @@
 package cuentas;
+
+/** 
+ * Esta clase se encarga de iniciar la ejecución del programa.
+ * @author ALVARO MARTINEZ LESMES
+ * @version v1.0 03/02/2025 
+ *  */
+
 public class Main {
+	
+	/**
+	 * El método operativa void se encarga de llamar al método operativa_cuenta.
+	 */
 
     public static void main(String[] args) {
         operativa_cuenta(null);
     }
+    
+    /* 
+     * Método que se encarga de crear una cuenta bancaria, llamar al cálculo del saldo actual
+     * Como la cantidad es fija de 2500, siempre enta por ingreso en cuenta
+     * 
+     * @param cantidad se utiliza para introducir una cantidad (no se está utilizando).
+     */
 
 	public static void operativa_cuenta(Float cantidad) {
 		CCuenta cuenta1;
